@@ -1,0 +1,4 @@
+Para instalar la aplicacion, es necesario ejecutar el script sql "base de datos.sql", con privilegios de creacion de bbdd, tablas y registros.
+
+Para editar los datos de la conexion de la base de datos, puede editar el archivo Config.php
+

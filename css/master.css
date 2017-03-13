@@ -1,0 +1,104 @@
+
+*{
+  margin: 0;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+
+}
+.centrar{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 35%;
+}
+input{
+  width: 41.66%;
+  float: left;
+  height: 4em;
+  margin:0.5em 0;
+  transition: 1s border;
+}
+input:invalid{
+border: solid red 1px;
+}
+input:valid{
+  border: solid green 1px;
+}
+input:focus{
+  outline-offset:0;
+  outline:0;
+}
+input.boton{
+  padding:0;
+  height: 4em;
+}
+input.boton:invalid{
+border: none;
+}
+input.boton:valid{
+  border: none;
+}
+input#origen:valid{
+  border: solid grey 1px;
+}
+input#destino:valid{
+  border: solid grey 1px;
+}
+input.mayus{
+  text-transform:uppercase;
+}
+input#buscar{
+  width: 16.68%;
+  height: 3em;
+  float: left;
+}
+input#buscar.boton{
+  padding:0;
+  height: 4em;
+}
+input#buscar.boton:focus{
+  border: solid green 2px;
+}
+article{
+  width: 100%;
+  height: 80%;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.prediccion{
+  margin-top: 1em;
+  width: 41.66%;
+  height: 3em;
+  float: left;
+  text-align: center;
+}
+div.prediccion ul{
+  list-style: none;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+div.prediccion ul li{
+  padding: 0.5em 0;
+}
+div.prediccion ul li:hover{
+  background-color: #4a4c4d;
+  color: whitesmoke;
+}
+div.resultado_lista_trenes{
+  width: 100%;
+  height: 6em;
+  background-color: #b0bec5;
+
+}
+section.centrar_horizontal{
+  margin: auto;
+  width: 90%;
+}
+article.lista_trenes{
+  width: 100%;
+  margin: 1em;
+}
